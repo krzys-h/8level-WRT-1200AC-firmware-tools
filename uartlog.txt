@@ -1,0 +1,90 @@
+
+Booting...
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@
+@ chip__no chip__id mfr___id dev___id cap___id size_sft dev_size chipSize
+@ 0000000h 0ef4016h 00000efh 0000040h 0000016h 0000000h 0000016h 0400000h
+@ blk_size blk__cnt sec_size sec__cnt pageSize page_cnt chip_clk chipName
+@ 0010000h 0000040h 0001000h 0000400h 0000100h 0000010h 000002dh W25Q32
+@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+DDR2:64MB
+ 
+---RealTek(RTL8196D)at 2019.02.21-13:17+0800 v1.4a [16bit](659MHz)
+no sys signature at 00010000!
+no sys signature at 00020000!
+no sys signature at 00030000!
+no sys signature at 00017000!
+no rootfs signature at 000E0000!
+no rootfs signature at 000F0000!
+no rootfs signature at 00130000!
+no rootfs signature at 00137000!
+Jump to image start=0x80500000...
+decompressing kernel:
+Uncompressing Linux... done, booting the kernel.
+done decompressing kernel.
+start address: 0x80003400
+Realtek WLAN driver - version 1.7 (2015-10-30)(SVN:1846)
+DFS function - version 2.0.6
+Adaptivity function - version 9.3.2
+
+
+#######################################################
+SKB_BUF_SIZE=3600 MAX_SKB_NUM=768
+#######################################################
+
+
+
+#######################################################
+SKB_BUF_SIZE=3600 MAX_SKB_NUM=768
+#######################################################
+
+
+
+
+Probing RTL8186 10/100 NIC-kenel stack size order[3]...
+chip name: 8196C, chip revid: 0
+NOT YET
+eth0 added. vid=9 Member port 0x1...
+eth1 added. vid=8 Member port 0x10...
+eth2 added. vid=9 Member port 0x2...
+eth3 added. vid=9 Member port 0x4...
+eth4 added. vid=9 Member port 0x8...
+eth5 added. vid=9 Member port 0x0...
+[peth0] added, mapping to [eth1]...
+Realtek FastPath:v1.03
+init started: BusyBox v1.13.4 (2019-02-21 13:17:44 CST)
+errno:13
+Init Start...
+Init bridge interface...
+
+
+************* Initialize MAC/PHY parameter *************
+[MAC_REG_8812_n]
+[PHY_REG_8812_n_hp]
+[PHY_REG_PG_8812]
+[AGC_TAB_8812_n_hp]
+[RadioA_8812_n_hp]
+[RadioB_8812_n_hp]
+[REG_TXPWR_TRK_8812_hp]
+
+
+************* Initialize MAC/PHY parameter *************
+Init Wlan application...
+
+WiFi Simple Config v2.18-wps2.0 (2015.11.09-07:03+0000).
+
+Register to wlan0
+Register to wlan1
+route: SIOCDELRT: No such process
+open fifo /var/iapp.fifo OK
+open fifo /var/wscd-wlan0.fifo OK
+open fifo /var/wscd-wlan1.fifo OK
+iwcontrol RegisterPID to (wlan0)
+iwcontrol RegisterPID to (wlan1)
+IEEE 802.11f (IAPP) using interface br0 (v1.8)
+Init WAN Interface...
+Start setting IPv6[IPv6]
+boa: server version Boa
+WRT-1200AC login: 

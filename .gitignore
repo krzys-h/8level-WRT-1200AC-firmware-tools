@@ -1,0 +1,4 @@
+*.web
+!TOTOLINK-A850R-V1.0.2-B20151104.1609.web
+*.bin
+!router.bin
