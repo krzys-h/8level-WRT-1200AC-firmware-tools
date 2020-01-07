@@ -46,9 +46,10 @@ See *./split_img.sh*
 
 | start address | end address | header | description |
 | ------------- | ----------- | ------ | ----------- |
-| 0x00000000 | 0x00008000 | -      | Bootloader code |
-| 0x00008000 | 0x00010000 | COMPDS | Default config |
-| 0x00010000 | 0x00018000 | COMPCS | Current config |
+| 0x00000000 | 0x00006000 | -          | Bootloader code |
+| 0x00006000 | 0x00008000 | H601 (?)   | Hardware config (MAC address etc.) |
+| 0x00008000 | 0x00010000 | COMPDS (?) | Default config |
+| 0x00010000 | 0x00018000 | COMPCS (?) | Current config |
 | 0x00018000 | 0x00138000 | Update header for cr6c | Linux kernel, prefixed with a header identical to the update header format |
 | 0x00138000 | 0x00327002 | squashfs filesystem header, starting with hsqs | Root filesystem. The last two bytes are added for the checksum. |
-| 0x00327002 | 0x00400000 | -      | 0xFF 0xFF 0xFF 0xFF ... |
+| 0x00327002 | 0x00400000 | -          | 0xFF 0xFF 0xFF 0xFF ... |
